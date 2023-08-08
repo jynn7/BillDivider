@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Bill Divider</string>
+    <string name="tv_total_price">Total(RM)</string>
+    <string name="tv_people_amount">Head COUNT</string>
+    <string name="tv_Method_word">Bill Break Down Method</string>
+    <string name="rb_Equal">Equal Break-Down</string>
+    <string name="rb_Custom">Custom Break-Down</string>
+    <string name="tv_equalBD_title">Equal Break-Down</string>
+    <string name="tv_BillDetails_word">Bill Details</string>
+    <string name="tv_total_price_equal_word">Total Price</string>
+    <string name="tv_head_count_equal_word">Head COUNT</string>
+    <string name="tv_total_price_equal_num">0</string>
+    <string name="tv_head_count_equal_num">0</string>
+    <string name="tv_price_per_head_word">Price Per Person : </string>
+    <string name="tv_price_per_head_num"></string>
+    <string name="tv_title_custom">Custom Break Down</string>
+    <string name="tv_filter">Filter</string>
+    <string name="rb_percentage_word">Percentage</string>
+    <string name="rb_ratio_word">Ratio</string>
+    <string name="rb_amount_word">Amount</string>
+    <string name="bt_custom_method">Confirm</string>
+    <string name="bt_calculate_custom">Calculate</string>
+    <string name="share_Button">Share</string>
+
+
+
+</resources>

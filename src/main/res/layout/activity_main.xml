@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#E6E6FA">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="395dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/invoice" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#EBF4FA"
+        android:textSize="25sp"
+        android:background="#87AFC7"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ADD8E6">
+
+        <TextView
+            android:id="@+id/tv_total_price"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_total_price"
+            android:textSize="15sp"
+            android:textColor="#EBF4FA"/>
+
+        <EditText
+            android:id="@+id/amount_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textColor="#6698FF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ADD8E6">
+
+        <TextView
+            android:id="@+id/tv_people_amount"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tv_people_amount"
+            android:textSize="15sp"
+            android:textColor="#EBF4FA"/>
+
+        <EditText
+            android:id="@+id/people_amount_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#6698FF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radioGroupMethod"
+            android:layout_width="match_parent"
+            android:layout_height="223dp">
+
+            <TextView
+                android:id="@+id/tv_Method_word"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ADDFFF"
+                android:gravity="center"
+                android:text="@string/tv_Method_word"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rb_Equal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#BDEDFF"
+                android:text="@string/rb_Equal"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rb_Custom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/rb_Custom"
+                android:textSize="20sp"
+                android:background="#BDEDFF"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0A808F"
+            android:text="Clear"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/bt_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:text="Calculate"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>
