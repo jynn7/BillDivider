@@ -116,4 +116,10 @@
             android:text="@string/tv_price_per_head_num"
             android:textSize="20sp" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_Share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share" />
 </LinearLayout>

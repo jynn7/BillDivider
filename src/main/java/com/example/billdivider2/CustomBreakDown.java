@@ -275,7 +275,7 @@ public class CustomBreakDown extends AppCompatActivity {
 
     public void sendToWhatsApp(String phoneNumber, String message) {
         // Use the WhatsApp package name
-        String whatsAppPackageName = "com.whatsapp";
+        //String whatsAppPackageName = "com.whatsapp";
 
         // Check if WhatsApp is installed on the device
         //PackageManager packageManager = getPackageManager();
